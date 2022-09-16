@@ -40,7 +40,7 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 16px;
+  padding: 40px 10px 30px 10px;
   text-decoration: none;
 }
 
@@ -50,20 +50,22 @@ li a:hover {
 
 
 #outside {
-	width: 90%;
+	width: 100%;
 	margin:0 auto;
 }
 
 #header {
 	float: left;
 	width: 100%;
+	min-height: 88px;
+	background-color: blue;
 }
 
 #feature {
 	float: left;
 	clear: both;
 	width: 100%;
-	min-height: 500px;
+	min-height: 700px;
 	background-image: url("images/shake.jpg");
 	background-repeat: no-repeat;
 	background-position: center top;
@@ -74,7 +76,7 @@ li a:hover {
 #feature h1 {
 	color: white;
 	margin: 0 10% 0 10%;
-	padding: 15% 0 0 0;
+	padding: 20% 0 0 0;
 }
 
 #feature h2 {
@@ -83,11 +85,42 @@ li a:hover {
 	padding: 0 0 0 0;
 }
 
+.columns {
+	background-color: white;
+}
 
+.fourth {
+	float: left;
+	width: 25%;
+	min-height: 300px;
+	background-color: white;
+}
 
+.half {
+	float: left;
+	width: 50%;
+	min-height: 300px;
+	background-color: white;
+}
 
+.full {
+	float: left;
+	width: 100%;
+	min-height: 300px;
+	background-color: white;
+}
 
+.stairs {
+	float: left;
+	width: 100%;
+	min-height: 400px;
+}
 
+#footer {
+	float: left;
+	width: 100%;
+	min-height: 300px;
+}
 
 
 
