@@ -97,10 +97,10 @@ li a:hover {
 	float: left;
 	clear: both;
 	width: 100%;
-	min-height: 700px;
+	min-height: 660px;
 	background-image: url("images/shake.jpg");
 	background-repeat: no-repeat;
-	background-position: center top;
+	background-position: center center;
     background-size: 100% auto;
     text-align: center;
 }
@@ -131,7 +131,7 @@ li a:hover {
 
 .fourth img {
 	width: 100px;
-	margin: 30px 0 0 0;
+	margin: 100px 0 0 0;
 }
 
 .half {
@@ -145,12 +145,37 @@ li a:hover {
 	width: 40%;
 }
 
+.goals {
+	float: left;
+}
+
+.goals img {
+	width: 70%;
+	padding: 50px 0 0 50px;
+}
+
+.strategy {
+	float: left;
+}
+
+.strategy h2 {
+	margin: 0 0 0 50px;
+}
+
+.strategy p {
+
+}
+
 .strategy img {
 	float: right;
+	width: 70%;
+	padding-right: 165px;
 }
 
 .plan img {
 	padding: 60px 0 0 200px;
+	width: 60%;
+	padding-left: 50px;
 }
 
 .plan h2 {
@@ -161,22 +186,9 @@ li a:hover {
 	padding: 0 100px 0 0;
 }
 
-.it_all_starts_with_strategy h2 {
-	margin: 0 0 0 50px;
-}
 
-.it_all_starts_with_strategy p {
-	margin: 0 0 0 0;
-}
 
-.it_all_starts_with_strategy img {
-	width: 400px;
-}
 
-.goals img {
-	width: 70%;
-	padding: 50px 0 0 50px;
-}
 
 .full {
 	float: left;
@@ -258,7 +270,6 @@ li a:hover {
 
 }
 
-
 #footer img {
 	width: 300px;
 	display:block;
@@ -274,6 +285,233 @@ li a:hover {
 	padding: 30px 0 0 0;
 	color: #6e6d6d;
 	font-size: 14px;
+}
+
+
+/* responsive breakpoints */
+@media only screen and (max-width: 1088px) {
+
+	#feature {
+		min-height: 400px;
+	}
+
+	#feature h1 {
+		padding-top: 130px;
+	}
+
+	#feature h3 {
+		padding: 0 50px 0 50px;
+	}
+
+	.fourth {
+		width: 50%;
+	}
+
+	.half p {
+		font-size: smaller;
+		line-height: 24px;
+		padding-right: 80px;
+	}
+
+	.plan img {
+		width: 60%;
+		padding-left: 50px;
+
+	}
+
+}
+
+
+
+@media only screen and (max-width: 800px) {
+
+	#feature {
+		min-height: 100px;
+	}
+
+	#feature h1 {
+		padding-top: 30px;
+	}
+
+	.goals {
+		float: left;
+		width: 100%;
+		padding: 0;
+		margin: 0 0 0 0;
+		min-height: 50px;
+	}
+
+	.goals img {
+		width: 100%;
+		padding: 0px 0 0 0px;
+	}
+
+	.goals h2 {
+		padding-left: 100px;
+	}
+
+	.goals p {
+		padding-left: 100px;
+	}
+
+	.strategy {
+		float: left;
+		width: 100%;
+		padding: 20px 0 50px 0;
+		min-height: 50px;	
+	}
+	
+	.strategy img {
+		width: 100%;
+		margin: 0;
+		padding: 0 0 100px 0;
+	}
+
+	.strategy h2 {
+		padding-left: 50px;
+	}
+
+	.strategy p {
+		padding-left: 100px;
+	}
+
+	.create {
+
+	}
+
+	.create h2 {
+
+	}
+
+	.create p {
+		font-size: 14px;
+		line-height: 20px;
+		padding-right: 20px;
+	}
+
+	.testimonial p {
+		font-size: 14px;
+		line-height: 16px;
+	}
+
+	#footer p {
+		width: 300px;
+		display: block;
+		margin: auto;
+		text-align: center;
+		padding: 30px 0 0 0;
+		color: #6e6d6d;
+		font-size: 14px;
+	}
+
+	.stairs p {
+		font-size: 14px;
+		line-height: 16px;
+	}
+
+}
+
+@media only screen and (max-width: 640px) {
+
+	ul {
+		display: none;
+	}
+
+	#feature {
+		min-height: 200px;
+	}
+
+	#feature h1 {
+		padding-top: 20px;
+		line-height: 36px;
+	}
+
+	#feature h3 {
+		font-size: 12px;
+	}
+
+	.fourth {
+		width: 100%;
+	}
+
+	.create h2 {
+		margin: 0;
+		padding: 80px 0 0 50px;
+	}
+
+	.create p {
+		font-size: 12px;
+		line-height: 14px;
+		padding-right: 10px;
+	}
+
+	.plan {
+		width: 100%;
+	}
+
+	.plan h2 {
+		padding-left: 50px;
+	}
+
+	.plan p {
+		padding-left: 50px;
+	}
+
+	.testimonial {
+		width: 100%;
+	}
+
+	.testimonial p {
+		width: 80%;
+	}
+
+	.stairs {
+		min-height: 0;
+	}
+
+	.stairs h2 {
+		padding-top: 10px;
+	}
+
+}
+
+@media only screen and (max-width: 410px) {
+
+	#feature {
+		min-height: 70px;
+	}
+
+	#feature h3 {
+		font-size: 10px;
+		line-height: 12px;
+		padding: 0 10px 0 10px;
+	}
+
+	.create h2 {
+		margin: 0;
+		padding: 120px 0 0 20px;
+		font-size: 18px;
+		line-height: 24px;
+
+	}
+
+	.create p {
+		padding-left: 20px;
+	}
+
+}
+
+@media only screen and (max-width: 350px) {
+
+	#feature {
+		min-height: 70px;
+	}
+
+	#feature h3 {
+		
+	}
+
+
 }
 
 
