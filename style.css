@@ -207,7 +207,7 @@ li a:hover {
 	background-position: center center;
     background-size: 100% auto;
     text-align: center;
-    min-height: 400px;
+    min-height: 350px;
 }
 
 .create h2 {
@@ -335,10 +335,15 @@ li a:hover {
 
 	#feature {
 		min-height: 100px;
+
 	}
 
 	#feature h1 {
 		padding-top: 30px;
+	}
+
+	.half {
+		min-height: 0;
 	}
 
 	.goals {
@@ -384,7 +389,7 @@ li a:hover {
 	}
 
 	.create {
-
+		min-height: 400px;
 	}
 
 	.create h2 {
@@ -402,6 +407,10 @@ li a:hover {
 		line-height: 16px;
 	}
 
+	.testimonial img {
+		padding-bottom: 50px;
+	}
+
 	#footer p {
 		width: 300px;
 		display: block;
@@ -415,6 +424,26 @@ li a:hover {
 	.stairs p {
 		font-size: 14px;
 		line-height: 16px;
+	}
+
+	.stairs {
+		min-height: 0;
+	}
+
+	.plan {
+		width: 100%;
+	}
+
+	.plan img {
+		padding-left: 120px;
+	}
+
+	.plan h2 {
+		padding-left: 50px;
+	}
+
+	.plan p {
+		padding-left: 50px;
 	}
 
 }
@@ -453,9 +482,14 @@ li a:hover {
 		width: 100%;
 	}
 
+	.create {
+		min-height: 300px;
+	}
+	
+
 	.create h2 {
 		margin: 0;
-		padding: 80px 0 0 50px;
+		padding: 40px 0 0 50px;
 	}
 
 	.create p {
@@ -464,8 +498,8 @@ li a:hover {
 		padding-right: 10px;
 	}
 
-	.plan {
-		width: 100%;
+	.plan img {
+		padding-left: 50px;
 	}
 
 	.plan h2 {
@@ -478,6 +512,10 @@ li a:hover {
 
 	.testimonial {
 		width: 100%;
+	}
+
+	.testimonial h2 {
+		text-align: center;
 	}
 
 	.testimonial p {
@@ -500,6 +538,11 @@ li a:hover {
 		min-height: 70px;
 	}
 
+	#feature h1 {
+		font-size: 16px;
+		line-height: 18px;
+	}
+
 	#feature h3 {
 		font-size: 10px;
 		line-height: 12px;
@@ -508,14 +551,49 @@ li a:hover {
 
 	.create h2 {
 		margin: 0;
-		padding: 120px 0 0 20px;
+		padding: 50px 0 0 20px;
 		font-size: 18px;
 		line-height: 24px;
 
 	}
 
+	.strategy h2 {
+		padding-left: 20px;
+		margin-left: 0;
+	}
+
+	.strategy p {
+		padding-left: 20px;
+		margin-left: 0;
+	}
+
+	.create {
+		background-size: auto 100%;
+	}
+
+	.stairs {
+		background-size: auto 100%;
+	}
+
+	.plan {
+		background-size: auto 100%;
+	}
+
 	.create p {
 		padding-left: 20px;
+	}
+
+	.goals h2 {
+		padding-left: 20px;
+	}
+
+	.goals p {
+		padding-left: 20px;
+	}
+	.half p {
+		font-size: smaller;
+		line-height: 24px;
+		padding-right: 40px;
 	}
 
 }
@@ -523,7 +601,7 @@ li a:hover {
 @media only screen and (max-width: 350px) {
 
 	#feature {
-		min-height: 70px;
+		min-height: 0px;
 	}
 
 	#feature h3 {
