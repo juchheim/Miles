@@ -3,6 +3,8 @@
 <head>
 <title>Title</title>
 <link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="nav.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald&display=swap" rel="stylesheet">
@@ -14,12 +16,50 @@
 
 	<div id="header">
 		<img class="logo" src="images/logo.png" />
+
 		<ul role="list">
 		  <li><a href="#">Contact</a></li>
 		  <li><a href="#">What We Do</a></li>
 		  <li><a href="#">Who We Are</a></li>
 		  <li><a href="#">About</a></li>
 		</ul>
+
+		<!-- Top Navigation Menu -->
+		<div class="topnav">
+		  <a href="#home" class="active">LOGO</a>
+		  <div id="myLinks">
+		    <a href="#">About</a>
+		    <a href="#">Who We Are</a>
+		    <a href="#">What We Do</a>
+		    <a href="#">Contact</a>
+		  </div>
+		  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		    <i class="fa fa-bars"></i>
+		  </a>
+		</div>
+
+
+
+<!-- End smartphone / tablet look -->
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+
+
+
+
+
+
 	</div>
 
 	<div id="feature">

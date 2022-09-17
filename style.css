@@ -71,6 +71,10 @@ li a:hover {
 }
 
 
+.topnav {
+	display: none;
+}
+
 #outside {
 	width: 100%;
 	margin:0 auto;
@@ -288,8 +292,12 @@ li a:hover {
 }
 
 
+
+
 /* responsive breakpoints */
 @media only screen and (max-width: 1088px) {
+
+
 
 	#feature {
 		min-height: 400px;
@@ -415,6 +423,17 @@ li a:hover {
 
 	ul {
 		display: none;
+	}
+
+	.logo {
+		display: none;
+	}
+
+	.topnav {
+		display: block;
+		position: relative;
+		font-family: 'Oswald', sans-serif;
+		font-weight: normal;
 	}
 
 	#feature {
